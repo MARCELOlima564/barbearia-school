@@ -14,12 +14,21 @@ const styles = StyleSheet.create({
   },
   user: {
     marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
+    padding: 60,
+    backgroundColor: "#DCDCDC",
     borderRadius: 5,
+    width: 400,
+    height: 300,
+    margin:5,
   },
   text: {
-    fontSize: 16,
+    fontSize: 20,
+  },
+  image:{
+    width: 300,
+    height: 300,
+    borderRadius: 150,
+    marginTop: 15,
   },
 });
 

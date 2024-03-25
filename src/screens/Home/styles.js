@@ -6,12 +6,26 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  button: {
+  image:{
+    width: 300,
+    height: 300,
+    borderRadius:300,
     marginTop: 20,
-    padding: 10,
-    backgroundColor: "#C9D4FF",
-    borderRadius: 5,
   },
+  containerTexto: {
+    width: 700,
+    height: 400,
+    marginTop: 30,
+  },
+  imagensHome:{
+    width: 400,
+    height: 300,
+    marginTop: 10,
+  },
+  text:{
+    fontSize:23,
+  },
+  
 });
 
 export default styles;
