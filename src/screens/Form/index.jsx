@@ -81,4 +81,94 @@ const clearInputs = () => {
       setNomeDoResponsavel("");
       setCargoDoResponsavel("");
   };
+
+  return (
+    <View style={styles.container}>
+        <Title title={isUpdate ? "Editar Filial" : "Nova Filial"} />
+        <TextInput 
+        placeholder="Nome"
+        style={styles.filialInput}
+        onChangeText={setNome}
+        value={nome}
+        />
+        <TextInput 
+        placeholder="Fundação"
+        style={styles.filialInput}
+        onChangeText={setFundacao}
+        value={fundacao}
+        />
+        <TextInput 
+        placeholder="Cor primaria"
+        style={styles.filialInput}
+        onChangeText={setCorPrimaria}
+        value={corPrimaria}
+        />
+        <TextInput 
+        placeholder="Cor secundaria"
+        style={styles.filialInput}
+        onChangeText={setCorSecundaria}
+        value={corSecundaria}
+        />
+        <TextInput 
+        placeholder="Quantidade de funcionarios"
+        style={styles.filialInput}
+        onChangeText={setQntdFuncionarios}
+        value={qntdFuncionarios}
+        />
+        <TextInput 
+        placeholder="Quantidade de alunos"
+        style={styles.filialInput}
+        onChangeText={setQntdAlunos}
+        value={qntdAlunos}
+        />
+        <TextInput 
+        placeholder="Quantidade de turmas"
+        style={styles.filialInput}
+        onChangeText={setQntdTurmas}
+        value={qntdTurmas}
+        />
+         <TextInput 
+        placeholder="Bairro"
+        style={styles.filialInput}
+        onChangeText={setBairro}
+        value={bairro}
+        />
+         <TextInput 
+        placeholder="Cidade"
+        style={styles.filialInput}
+        onChangeText={setCidade}
+        value={cidade}
+        />
+         <TextInput 
+        placeholder="CEP"
+        style={styles.filialInput}
+        onChangeText={setCep}
+        value={cep}
+        />
+         <TextInput 
+        placeholder="Telefone"
+        style={styles.filialInput}
+        onChangeText={setTelefone}
+        value={telefone}
+        />
+         <TextInput 
+        placeholder="E-mail"
+        style={styles.filialInput}
+        onChangeText={setEmail}
+        value={email}
+        />
+         <TextInput 
+        placeholder="Nome do responsavel"
+        style={styles.filialInput}
+        onChangeText={setNomeDoResponsavel}
+        value={nomeDoResponsavel}
+        />
+         <TextInput 
+        placeholder="Cargo do responsavel"
+        style={styles.filialInput}
+        onChangeText={setCargoDoResponsavel}
+        value={cargoDoResponsavel}
+        />
+    </View>
+  )
 }
